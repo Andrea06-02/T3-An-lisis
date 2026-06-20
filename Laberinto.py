@@ -97,7 +97,7 @@ def main():
     visitado = [[False] * COLS for _ in range(FILAS)]
     camino = []
 
-    print("Iniciando búsqueda con backtracking...\n")
+    
     encontrado = resolver(INICIO[0], INICIO[1], VIDAS_INICIALES, visitado, camino, paso=1)
 
     print("=" * 50)
